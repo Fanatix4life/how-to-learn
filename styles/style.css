@@ -85,7 +85,6 @@
 .description {
   margin-top:100px;
   margin-bottom:100px;
-  margin-top:0;
 }
 
 .two-columns__span-accent {
@@ -234,7 +233,7 @@
  /* блок kaufman */
 .kaufman {
   display: flex;
-  position: relative; 
+  position: relative;
   overflow: hidden;
   justify-content: center;
   flex-direction: column;
@@ -245,7 +244,7 @@
   z-index: 1;
   color: white;
 }
-.section-title {
+.section-title_theme_dark {
   text-align: center;
   width: 60%;
   line-height: 1.15;
@@ -254,7 +253,7 @@
   margin-top: 90px;
   margin-bottom: 0px;
 }
-.section-subtitle {
+.section-subtitle_theme_dark {
   text-align: center;
   width: 60%;
   margin-top: 20px;
@@ -264,29 +263,28 @@
   font-weight: normal;
   margin-top: 20px;
 }
-.table {
+.table_theme_dark {
   margin: 0px auto 90px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.table__heading {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   width: 200px;
 }
-.table__text {
+.table__text_theme_dark {
   margin-top: 20px;
   width: 250px;
-  margin-top: 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   width: 200px;
 
 }
-.table__cell {
+.table__cell_theme_dark {
   width: 200px;
 }
 .kaufman__triangle {
