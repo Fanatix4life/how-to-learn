@@ -132,7 +132,6 @@
   align-items: center;
   flex-direction: column;
   margin: 100px;
-  border: 2px solid red;
 }
 .digits-title {
   line-height: 1.15;
@@ -141,7 +140,6 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 0px;
-  border: 2px solid red;
 }
 .digits-subtitle {
   margin: 0;
@@ -152,7 +150,6 @@
   font-size: 24px;
   font-weight: normal;
   z-index: 2;
-  border: 2px solid red;
 }
 .table {
   max-width: 1100px;
@@ -162,13 +159,11 @@
   justify-content: space-between;
   align-content: space-between;
   margin: 0 auto;
-  border: 2px solid red;
 }
 .table__cell {
   width: 250px;
   margin-top: 60px;
   list-style: none;
-  border: 2px solid red;
 }
 .table__heading {
   margin: 0;
@@ -176,7 +171,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  border: 2px solid red;
 }
 .table__text {
   margin: 20px 0 0;
@@ -261,7 +255,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 20px;
 }
 .table_theme_dark {
   margin: 0px auto 90px;
@@ -277,16 +270,12 @@
 }
 .table__text_theme_dark {
   margin-top: 20px;
-  width: 250px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   width: 200px;
+}
 
-}
-.table__cell_theme_dark {
-  width: 200px;
-}
 .kaufman__triangle {
   position: absolute;
   right: -210px;
@@ -315,7 +304,6 @@
   display: flex;
   justify-content: center;
   background-color: #1f1f1f;
-  border: 2px solid red;
 }
 .logo_place_footer {
   width: 183px;
@@ -325,24 +313,17 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
 }
 .footer__column {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
-.footer__column-heading {
-  margin-bottom: 20px;
-  line-height: 30px;
-  font-weight:  bold;
-}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid red;
 }
 .footer__author {
   margin: 18px 0;
@@ -354,12 +335,12 @@
 }
 .footer__column-heading {
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  border: 2px solid red;
 }
 .footer__column-links {
   display: flex;
@@ -383,6 +364,5 @@
   font-size: 18px;
   font-weight: normal;
   transition: opacity .3s ease;
-  border: 2px solid red;
 }
 
