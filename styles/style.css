@@ -28,6 +28,7 @@
   width:183px;
   height:32px;
   overflow:hidden;
+  z-index: 1;
 }
 .header__title {
   text-align: left;
