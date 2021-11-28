@@ -50,8 +50,8 @@
 }
 /* ссылка в шапке */
 .header__link {
-  position: absolute;
   color:#2F80ED;
+  text-decoration: none;
 }
 .header__main-illustration {
   position: absolute;
@@ -125,7 +125,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 100px;
 }
 .section-title {
   line-height: 1.15;
@@ -153,6 +152,7 @@
   justify-content: space-between;
   align-content: space-between;
   margin: 0 auto 0;
+  padding-left: 0;
 }
 .table__cell {
   width: 250px;
@@ -331,7 +331,6 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  margin: 0 0 20px;
 }
 .footer__column-links {
   display: flex;
